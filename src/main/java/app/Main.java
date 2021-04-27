@@ -15,6 +15,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        //  Change IP, user and password
         String url = "jdbc:oracle:thin:@84.237.50.81:1521:";
         Properties props = new Properties();
         props.setProperty("user", "***");
